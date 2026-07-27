@@ -6,116 +6,181 @@
 <title>مطعم الذواقة | مطبخ عالمي بلمسة أصيلة</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav id="mainNav">
-  <div class="nav-inner">
-    <div class="brand">الذواقة</div>
-    <ul class="nav-links">
-      <li><a href="#home">الرئيسية</a></li>
-      <li><a href="#about">قصتنا</a></li>
-      <li><a href="#menu">قائمة الطعام</a></li>
-      <li><a href="#gallery">المعرض</a></li>
-      <li><a href="#contact">التواصل</a></li>
-    </ul>
-    <button class="hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
-  </div>
+<div class="topbar">
+<div class="topbar-inner">
+<a class="topbar-phone" href="tel:0500000000"><i class="fa-solid fa-phone"></i>0500000000</a>
+<div class="topbar-social">
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+</div>
+</div>
+</div>
+<div class="nav-inner">
+<div class="brand-wrap">
+<div class="logo-circle"><i class="fa-solid fa-utensils"></i></div>
+<div class="brand">الذواقة</div>
+</div>
+<ul class="nav-links">
+<li><a href="#home">الرئيسية</a></li>
+<li><a href="#about">قصتنا</a></li>
+<li><a href="#menu">قائمة الطعام</a></li>
+<li><a href="#gallery">المعرض</a></li>
+<li><a href="#contact">التواصل</a></li>
+</ul>
+<a href="#contact" class="nav-cta">احجز طاولتك</a>
+<button class="hamburger" id="hamburgerBtn"><span></span><span></span><span></span></button>
+</div>
 </nav>
 <header class="hero" id="home">
-  <div class="hero-watermark">ذواقة</div>
-  <div class="hero-grid">
-    <div class="hero-copy reveal">
-      <p class="eyebrow">مطبخ عالمي وشرقي</p>
-      <h1>نكهات <em>أصيلة</em> تُروى على مائدتك</h1>
-      <p class="lead">في الذواقة، كل طبق حكاية من التراث تُقدَّم بحرفية عصرية، لتجربة طعام تُخاطب الحواس قبل الذائقة.</p>
-      <a href="#menu" class="link-cta">تصفح قائمة الطعام ←</a>
-    </div>
-    <div class="hero-visual reveal">
-      <div class="visual-block" style="background-image:url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;"></div>
-      <div class="visual-tag">تأسس 2010</div>
-    </div>
-  </div>
+<div class="hero-watermark">ذواقة</div>
+<div class="hero-grid">
+<div class="hero-copy reveal">
+<p class="eyebrow">مطبخ عالمي وشرقي</p>
+<h1>نكهات <em>أصيلة</em> تُروى على مائدتك</h1>
+<p class="lead">في الذواقة، كل طبق حكاية من التراث تُقدَّم بحرفية عصرية، لتجربة طعام تُخاطب الحواس قبل الذائقة.</p>
+<a href="#menu" class="link-cta">تصفح قائمة الطعام ←</a>
+</div>
+<div class="hero-visual reveal">
+<div class="visual-block" style="background-image:url('https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;"></div>
+<div class="visual-tag">تأسس 2010</div>
+</div>
+</div>
 </header>
 <section class="stats-strip reveal">
-  <div class="stat"><h3>+15</h3><p>سنة خبرة</p></div>
-  <div class="divider"></div>
-  <div class="stat"><h3>+50</h3><p>طبق أصيل</p></div>
-  <div class="divider"></div>
-  <div class="stat"><h3>4.8</h3><p>تقييم الزوار</p></div>
-  <div class="divider"></div>
-  <div class="stat"><h3>24/7</h3><p>توصيل سريع</p></div>
+<div class="stat"><h3>+15</h3><p>سنة خبرة</p></div>
+<div class="divider"></div>
+<div class="stat"><h3>+50</h3><p>طبق أصيل</p></div>
+<div class="divider"></div>
+<div class="stat"><h3>4.8</h3><p>تقييم الزوار</p></div>
+<div class="divider"></div>
+<div class="stat"><h3>24/7</h3><p>توصيل سريع</p></div>
 </section>
 <section class="about" id="about">
-  <div class="about-grid">
-    <div class="about-visual reveal"><div class="visual-block" style="background-image:url('https://images.unsplash.com/photo-1663530761401-15eefb544889?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;"></div></div>
-    <div class="about-copy reveal">
-      <p class="eyebrow">قصتنا</p>
-      <h2>حيث يلتقي التراث بالحرفية</h2>
-      <p>انطلقت الذواقة من مطبخ عائلي صغير، لتصبح وجهة يقصدها عشّاق النكهات الأصيلة، بفضل التزامنا باختيار أجود المكونات وأمهر الطهاة.</p>
-      <p>نؤمن أن الطعام تجربة متكاملة، لذا نحرص على كل تفصيلة من المذاق إلى طريقة التقديم.</p>
-    </div>
-  </div>
+<div class="about-grid">
+<div class="about-visual reveal"><div class="visual-block" style="background-image:url('https://images.unsplash.com/photo-1663530761401-15eefb544889?auto=format&fit=crop&w=900&q=80');background-size:cover;background-position:center;"></div></div>
+<div class="about-copy reveal">
+<p class="eyebrow">قصتنا</p>
+<h2>حيث يلتقي التراث بالحرفية</h2>
+<p>انطلقت الذواقة من مطبخ عائلي صغير، لتصبح وجهة يقصدها عشّاق النكهات الأصيلة، بفضل التزامنا باختيار أجود المكونات وأمهر الطهاة.</p>
+<p>نؤمن أن الطعام تجربة متكاملة، لذا نحرص على كل تفصيلة من المذاق إلى طريقة التقديم.</p>
+</div>
+</div>
 </section>
 <section class="menu-section" id="menu">
-  <p class="eyebrow">قائمتنا</p>
-  <h2>أطباق مختارة بعناية</h2>
-  <div class="menu-cat reveal">
-    <h3>المقبلات</h3>
-    <div class="menu-line"><span class="name">حمص بالطحينة</span><span class="desc">— حمص، طحينة، زيت زيتون</span><span class="dots"></span><span class="price">18 ر.س</span></div>
-    <div class="menu-line"><span class="name">تبولة شامية</span><span class="desc">— برغل، بقدونس، ليمون</span><span class="dots"></span><span class="price">20 ر.س</span></div>
-    <div class="menu-line"><span class="name">سمبوسة لحم</span><span class="desc">— عجينة مقرمشة، حشوة لحم</span><span class="dots"></span><span class="price">22 ر.س</span></div>
-  </div>
-  <div class="menu-cat reveal">
-    <h3>الأطباق الرئيسية</h3>
-    <div class="menu-line"><span class="name">كبسة لحم</span><span class="desc">— أرز بسمتي، لحم غنم</span><span class="dots"></span><span class="price">55 ر.س</span></div>
-    <div class="menu-line"><span class="name">مشاوي مشكلة</span><span class="desc">— تشكيلة مشاوي فاخرة</span><span class="dots"></span><span class="price">75 ر.س</span></div>
-    <div class="menu-line"><span class="name">مندي دجاج</span><span class="desc">— دجاج مطهو ببطء</span><span class="dots"></span><span class="price">48 ر.س</span></div>
-  </div>
-  <div class="menu-cat reveal">
-    <h3>الحلويات</h3>
-    <div class="menu-line"><span class="name">كنافة نابلسية</span><span class="desc">— جبن، قطر، فستق</span><span class="dots"></span><span class="price">28 ر.س</span></div>
-    <div class="menu-line"><span class="name">أم علي</span><span class="desc">— حليب، مكسرات، هيل</span><span class="dots"></span><span class="price">24 ر.س</span></div>
-  </div>
+<p class="eyebrow">قائمتنا</p>
+<h2>أطباق مختارة بعناية</h2>
+<div class="featured-menu-grid">
+<div class="fm-card reveal">
+<div class="fm-circle" style="background-image:url('https://images.unsplash.com/photo-1676471926534-d5c9771909fa?auto=format&fit=crop&w=500&q=80')"></div>
+<h4>حمص بالطحينة</h4>
+<p class="fm-price">18 ر.س</p>
+</div>
+<div class="fm-card reveal">
+<div class="fm-circle" style="background-image:url('https://images.unsplash.com/photo-1623073284788-0d846f75e329?auto=format&fit=crop&w=500&q=80')"></div>
+<h4>كبسة لحم</h4>
+<p class="fm-price">55 ر.س</p>
+</div>
+<div class="fm-card reveal">
+<div class="fm-circle" style="background-image:url('https://images.unsplash.com/photo-1689672235271-727de51355e6?auto=format&fit=crop&w=500&q=80')"></div>
+<h4>مشاوي مشكلة</h4>
+<p class="fm-price">75 ر.س</p>
+</div>
+<div class="fm-card reveal">
+<div class="fm-circle" style="background-image:url('https://images.unsplash.com/photo-1611520175743-30ff00129621?auto=format&fit=crop&w=500&q=80')"></div>
+<h4>كنافة نابلسية</h4>
+<p class="fm-price">28 ر.س</p>
+</div>
+</div>
+<div class="menu-cta-wrap">
+<a href="menu.html" class="menu-cta-btn">عرض جميع الأطباق <i class="fa-solid fa-arrow-left"></i></a>
+</div>
 </section>
 <section class="gallery" id="gallery">
-  <p class="eyebrow center">المعرض</p>
-  <h2 class="center">لمحة من أطباقنا</h2>
-  <div class="gallery-grid reveal">
-    <div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1676471926534-d5c9771909fa?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-    <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1623073284788-0d846f75e329?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-    <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1689672235271-727de51355e6?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-    <div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1616671285410-2a676a9a433d?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-    <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1558199141-391d935676f0?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-    <div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1611520175743-30ff00129621?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
-  </div>
+<p class="eyebrow center">المعرض</p>
+<h2 class="center">لمحة من أطباقنا</h2>
+<div class="gallery-grid reveal">
+<div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1676471926534-d5c9771909fa?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+<div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1623073284788-0d846f75e329?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+<div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1689672235271-727de51355e6?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+<div class="g-item tall" style="background-image:url('https://images.unsplash.com/photo-1616671285410-2a676a9a433d?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+<div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1558199141-391d935676f0?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+<div class="g-item" style="background-image:url('https://images.unsplash.com/photo-1611520175743-30ff00129621?auto=format&fit=crop&w=700&q=80');background-size:cover;background-position:center;"></div>
+</div>
 </section>
 <section class="testimonials reveal">
-  <div class="quote-mark">”</div>
-  <p class="quote">تجربة طعام استثنائية، النكهات أصيلة والخدمة راقية. من أفضل المطاعم التي زرتها في مكة.</p>
-  <p class="quote-name">— أبو سلطان، زائر دائم</p>
+<div class="quote-mark">”</div>
+<p class="quote">تجربة طعام استثنائية، النكهات أصيلة والخدمة راقية. من أفضل المطاعم التي زرتها في مكة.</p>
+<p class="quote-name">— أبو سلطان، زائر دائم</p>
 </section>
 <section class="contact" id="contact">
-  <div class="contact-grid">
-    <div class="contact-info reveal">
-      <p class="eyebrow">تواصل معنا</p>
-      <h2>احجز طاولتك الآن</h2>
-      <ul>
-        <li><span>العنوان</span>جبل النور، مكة المكرمة</li>
-        <li><span>الهاتف</span>0500000000</li>
-        <li><span>واتساب</span>966500000000+</li>
-        <li><span>البريد</span>info@example.com</li>
-      </ul>
-    </div>
-    <form class="contact-form reveal" id="reserveForm">
-      <div class="field"><input type="text" placeholder=" " required id="fname"><label>الاسم الكامل</label></div>
-      <div class="field"><input type="tel" placeholder=" " required id="fphone"><label>رقم الجوال</label></div>
-      <div class="field"><input type="date" placeholder=" " required id="fdate"><label>تاريخ الحجز</label></div>
-      <button type="submit">تأكيد الحجز</button>
-    </form>
-  </div>
+<div class="contact-grid">
+<div class="contact-info reveal">
+<p class="eyebrow">تواصل معنا</p>
+<h2>احجز طاولتك الآن</h2>
+<ul>
+<li><span>العنوان</span>جبل النور، مكة المكرمة</li>
+<li><span>الهاتف</span>0500000000</li>
+<li><span>واتساب</span>966500000000+</li>
+<li><span>البريد</span>info@example.com</li>
+</ul>
+</div>
+<form class="contact-form reveal" id="reserveForm">
+<div class="field"><input type="text" placeholder=" " required id="fname"><label>الاسم الكامل</label></div>
+<div class="field"><input type="tel" placeholder=" " required id="fphone"><label>رقم الجوال</label></div>
+<div class="field"><input type="date" placeholder=" " required id="fdate"><label>تاريخ الحجز</label></div>
+<button type="submit">تأكيد الحجز</button>
+</form>
+</div>
 </section>
-<footer><p>© 2026 مطعم الذواقة — جميع الحقوق محفوظة</p></footer>
+<footer class="site-footer">
+<div class="footer-grid">
+<div class="footer-brand reveal">
+<h3>الذواقة</h3>
+<p>مطبخ عالمي بلمسة شرقية أصيلة، نقدم تجربة طعام استثنائية في قلب مكة المكرمة منذ 2010.</p>
+<div class="footer-social">
+<a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+<a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+</div>
+</div>
+<div class="footer-col reveal">
+<h4>روابط سريعة</h4>
+<ul>
+<li><a href="#home">الرئيسية</a></li>
+<li><a href="#about">قصتنا</a></li>
+<li><a href="#menu">قائمة الطعام</a></li>
+<li><a href="#gallery">المعرض</a></li>
+<li><a href="#contact">التواصل</a></li>
+</ul>
+</div>
+<div class="footer-col reveal">
+<h4>تواصل معنا</h4>
+<ul>
+<li><i class="fa-solid fa-location-dot"></i>جبل النور، مكة المكرمة</li>
+<li><i class="fa-solid fa-phone"></i>0500000000</li>
+<li><i class="fa-solid fa-envelope"></i>info@example.com</li>
+</ul>
+</div>
+<div class="footer-col reveal">
+<h4>ساعات العمل</h4>
+<ul>
+<li><i class="fa-solid fa-clock"></i>يوميًا: 12 ظهرًا - 12 منتصف الليل</li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 مطعم الذواقة — جميع الحقوق محفوظة</p>
+<p>تصميم وتطوير <a href="https://github.com/AhmedSoftSA" target="_blank" rel="noopener">AhmedSoftSA</a></p>
+</div>
+</footer>
+<a href="#home" class="back-to-top" id="backToTop"><i class="fa-solid fa-arrow-up"></i></a>
 <script src="script.js"></script>
 </body>
 </html>
