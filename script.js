@@ -19,3 +19,27 @@ document.addEventListener('DOMContentLoaded',function(){
     });
   }
 });
+
+
+// Gallery: click to enlarge one image and shrink the rest
+document.addEventListener('DOMContentLoaded', function(){
+  const items = Array.from(document.querySelectorAll('.g-item'));
+  items.forEach(function(item){
+    item.addEventListener('click', function(){
+      const isEnlarged = item.classList.contains('enlarged');
+      items.forEach(function(i){ i.classList.remove('enlarged','shrink'); });
+      if(!isEnlarged){
+        item.classList.add('enlarged');
+        items.forEach(function(i){ if(i!==item) i.classList.add('shrink'); });
+      }
+    });
+  });
+
+  // Back to top button
+  const backToTop = document.getElementById('backToTop');
+  if(backToTop){
+    window.addEventListener('scroll', function(){
+      if(window.scrollY>500){backToTop.classList.add('show');}else{backToTop.classList.remove('show');}
+    });
+  }
+});
